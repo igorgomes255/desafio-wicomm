@@ -47,6 +47,30 @@ const cardTypeData = [
     image: image2,
     title: "SAÚDE",
   },
+  {
+    image: image2,
+    title: "ALGO",
+  },
+  {
+    image: image2,
+    title: "HIPERCALÓRICOS",
+  },
+  {
+    image: image2,
+    title: "CREATININA",
+  },
+  {
+    image: image2,
+    title: "PACKS",
+  },
+  {
+    image: image2,
+    title: "AMINOÁCIDOS",
+  },
+  {
+    image: image2,
+    title: "SAÚDE",
+  },
 ];
 
 export { cardImageData, cardTypeData };
