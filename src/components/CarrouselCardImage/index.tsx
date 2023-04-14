@@ -1,0 +1,3 @@
+const CarrouselCardImage = () => {};
+
+export { CarrouselCardImage };
