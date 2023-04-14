@@ -1,4 +1,5 @@
 import image1 from "../assets/image1.png";
+import image2 from "../assets/image2.png";
 
 const cardImageData = [
   {
@@ -21,4 +22,31 @@ const cardImageData = [
   },
 ];
 
-export { cardImageData };
+const cardTypeData = [
+  {
+    image: image2,
+    title: "PROTEÍNAS",
+  },
+  {
+    image: image2,
+    title: "HIPERCALÓRICOS",
+  },
+  {
+    image: image2,
+    title: "CREATININA",
+  },
+  {
+    image: image2,
+    title: "PACKS",
+  },
+  {
+    image: image2,
+    title: "AMINOÁCIDOS",
+  },
+  {
+    image: image2,
+    title: "SAÚDE",
+  },
+];
+
+export { cardImageData, cardTypeData };
