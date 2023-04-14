@@ -1,4 +1,5 @@
 import { CardImage } from "../../components/CardImage";
+import { CarrouselCardImage } from "../../components/CarrouselCardImage";
 import { Header } from "../../components/header";
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <CardImage />
+        <CarrouselCardImage />
       </main>
     </>
   );

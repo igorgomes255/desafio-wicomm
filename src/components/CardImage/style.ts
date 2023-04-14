@@ -35,6 +35,7 @@ export const InfoCard = styled.section`
     font-weight: 400;
     font-size: 16px;
     width: 320px;
+    color: white;
   }
 
   .button {

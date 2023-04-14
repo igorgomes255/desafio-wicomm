@@ -1,22 +1,24 @@
 import { Container, InfoCard } from "./style";
-import { Card, CardImg, CardImgOverlay, Button } from "reactstrap";
-import image1 from "../../assets/image1.png";
+import { Card, CardImg, Button } from "react-bootstrap";
 
-const CardImage = () => {
+interface ICardImage {
+  image: string;
+  title: string;
+  subtitle: string;
+}
+
+const CardImage = ({ image, title, subtitle }: ICardImage) => {
   return (
     <Container>
-      <Card inverse>
-        <CardImg src={image1} />
-        <CardImgOverlay>
+      <Card>
+        <CardImg src={image} />
+        <Card.ImgOverlay>
           <InfoCard>
-            <h2>AJUDANDO VOCÊ A TER MAIS PERFORMANCE</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
-            </p>
+            <h2> {title} </h2>
+            <p>{subtitle}</p>
             <Button className="button">CONFIRA</Button>
           </InfoCard>
-        </CardImgOverlay>
+        </Card.ImgOverlay>
       </Card>
     </Container>
   );
