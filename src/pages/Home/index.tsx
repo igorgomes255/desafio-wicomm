@@ -1,3 +1,4 @@
+import { CardProduct } from "../../components/CardProduct";
 import { CarrouselCard } from "../../components/CarrouselCard";
 import { CarrouselCardImage } from "../../components/CarrouselCardImage";
 import { Header } from "../../components/header";
@@ -11,6 +12,7 @@ const Home = () => {
         <CarrouselCardImage />
         <SectionCarrousel>
           <CarrouselCard />
+          <CardProduct />
         </SectionCarrousel>
       </Main>
     </>
