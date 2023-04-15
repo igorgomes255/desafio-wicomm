@@ -3,5 +3,5 @@ import styled from "styled-components";
 export const Main = styled.main``;
 
 export const SectionCarrousel = styled.section`
-  margin: 50px;
+  margin: 60px;
 `;
