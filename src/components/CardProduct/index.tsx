@@ -42,6 +42,7 @@ const CardProduct = ({ image, title, price, quotaPrice }: ICardProduct) => {
           <Card.Text className="textCard">{price} </Card.Text>
           <Card.Text className="textCard2">{quotaPrice}</Card.Text>
         </SectionText>
+
         <InfoProduct>
           <div className="content">
             <ChoiceProduct>
@@ -69,6 +70,7 @@ const CardProduct = ({ image, title, price, quotaPrice }: ICardProduct) => {
           </div>
         </InfoProduct>
       </Card>
+
       {isOpen && <Button className="buttonComprar">Comprar</Button>}
     </Container>
   );
