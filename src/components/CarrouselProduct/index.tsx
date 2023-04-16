@@ -1,42 +1,43 @@
 import { Carousel, CarouselItem, Stack } from "react-bootstrap";
-import { CardTypeProduct } from "../CardTypeProduct";
-import { cardTypeData } from "../../utils/data";
+import { cardProduct } from "../../utils/data";
 import { GrLinkPrevious, GrLinkNext } from "react-icons/gr";
+import { CardProduct } from "../CardProduct";
 
-const CarrouselCard = () => {
+const CarrouselProduct = () => {
   return (
     <Carousel
-      indicators={false}
       prevIcon={
         <GrLinkPrevious
           size={32}
-          style={{ backgroundColor: "#CACACA", marginLeft: -260 }}
+          style={{ backgroundColor: "#CACACA", marginLeft: -160 }}
         />
       }
       nextIcon={
         <GrLinkNext
           size={32}
-          style={{ backgroundColor: "#CACACA", marginRight: -260 }}
+          style={{ backgroundColor: "#CACACA", marginRight: -160 }}
         />
       }
     >
-      {cardTypeData.map((review, index) => (
+      {cardProduct.map((review, index) => (
         <CarouselItem interval={10000}>
           <Stack
             direction="horizontal"
             style={{
               display: "flex",
-              justifyContent: "flex-start",
+              justifyContent: "center",
               alignItems: "center",
               gap: "25px",
-              width: "110%",
+              width: "100%",
             }}
           >
-            {cardTypeData.map((card, index) => (
-              <CardTypeProduct
+            {cardProduct.map((card, index) => (
+              <CardProduct
                 key={index}
                 image={card.image}
                 title={card.title}
+                price={card.price}
+                quotaPrice={card.quotaPrice}
               />
             ))}
           </Stack>
@@ -46,4 +47,4 @@ const CarrouselCard = () => {
   );
 };
 
-export { CarrouselCard };
+export { CarrouselProduct };

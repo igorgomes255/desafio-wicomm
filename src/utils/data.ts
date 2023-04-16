@@ -1,5 +1,6 @@
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
+import image3 from "../assets/image3.png";
 
 const cardImageData = [
   {
@@ -73,4 +74,49 @@ const cardTypeData = [
   },
 ];
 
-export { cardImageData, cardTypeData };
+const cardProduct = [
+  {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  },
+  {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  },
+  {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  },
+  {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  },
+  {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  },
+  /* {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  },
+  {
+    image: image3,
+    title: "Whey Zero (Com Lactase) Black Skull - 900G",
+    price: "R$ 349,90",
+    quotaPrice: "ou 12x de R$ 29,16",
+  }, */
+];
+
+export { cardImageData, cardTypeData, cardProduct };

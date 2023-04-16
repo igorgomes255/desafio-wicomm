@@ -4,7 +4,7 @@ export const Container = styled.section`
   margin-top: 100px;
   margin-bottom: 100px;
 
-  width: 270px;
+  min-width: 270px;
   height: 340px;
 
   .cardProduct {
@@ -157,44 +157,5 @@ export const ChoiceProduct = styled.section`
 
     width: 85px;
     height: 30px;
-  }
-`;
-
-export const CardTeste2 = styled.div`
-  .card {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    background: #000814;
-    border-radius: 20px;
-    z-index: 5;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #ffffff;
-    overflow: hidden;
-    cursor: pointer;
-  }
-
-  .card h2,
-  span {
-    position: absolute;
-
-    transform: translate(-50%, -50%);
-  }
-
-  .card .content {
-    transform: translateY(100%);
-    background-color: blue;
-    height: 100px;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-  }
-
-  .card:hover .content {
-    transform: translateY(0);
-    opacity: 1;
   }
 `;
