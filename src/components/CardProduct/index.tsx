@@ -1,13 +1,5 @@
+import { Button, Card, CardImg, ToggleButtonGroup } from "react-bootstrap";
 import {
-  Button,
-  Card,
-  CardImg,
-  ToggleButtonGroup,
-  ToggleButton,
-} from "react-bootstrap";
-import image3 from "../../assets/image3.png";
-import {
-  CardTeste2,
   ChoiceProduct,
   Container,
   InfoProduct,
@@ -17,7 +9,14 @@ import {
 import { AiOutlineStar, AiOutlineShoppingCart } from "react-icons/ai";
 import { useState } from "react";
 
-const CardProduct = () => {
+interface ICardProduct {
+  image: string;
+  title: string;
+  price: string;
+  quotaPrice: string;
+}
+
+const CardProduct = ({ image, title, price, quotaPrice }: ICardProduct) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [value, setValue] = useState([1, 4]);
@@ -31,7 +30,7 @@ const CardProduct = () => {
     >
       <Card className="cardProduct">
         <SectionImage>
-          <CardImg variant="top" src={image3} />
+          <CardImg variant="top" src={image} />
           <section>
             <AiOutlineStar size={25} />
             <AiOutlineShoppingCart size={25} />
@@ -39,11 +38,9 @@ const CardProduct = () => {
         </SectionImage>
 
         <SectionText>
-          <Card.Title className="titleCard">
-            Whey Zero (Com Lactase) Black Skull - 900G
-          </Card.Title>
-          <Card.Text className="textCard">R$ 349,90</Card.Text>
-          <Card.Text className="textCard2">ou 12x de R$ 29,16</Card.Text>
+          <Card.Title className="titleCard">{title}</Card.Title>
+          <Card.Text className="textCard">{price} </Card.Text>
+          <Card.Text className="textCard2">{quotaPrice}</Card.Text>
         </SectionText>
         <InfoProduct>
           <div className="content">
@@ -72,25 +69,7 @@ const CardProduct = () => {
           </div>
         </InfoProduct>
       </Card>
-
       {isOpen && <Button className="buttonComprar">Comprar</Button>}
-
-      {/*       <CardTeste2>
-        <div className="card">
-          <h2>Animated card</h2>
-          <span>Hover Me</span>
-          <div className="card2">
-            <div className="content">
-              <h3>How's it goin Fam ?</h3>
-              <p>
-                This is Sachin Samal, your tech mate!!! I love you all. Lets
-                make this world a better place for all of us. Keep
-                prospering...Keep learning!!!
-              </p>
-            </div>
-          </div>
-        </div>
-      </CardTeste2> */}
     </Container>
   );
 };
