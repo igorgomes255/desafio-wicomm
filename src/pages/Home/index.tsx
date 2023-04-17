@@ -1,11 +1,11 @@
 import { Blog } from "../../components/Blog";
-import { CardGoals } from "../../components/CardGoals";
 import { CarrouselCard } from "../../components/CarrouselCard";
 import { CarrouselCardImage } from "../../components/CarrouselCardImage";
 import { CarrouselProduct } from "../../components/CarrouselProduct";
 import { CarrouselPromo } from "../../components/CarrouselPromo";
 import { Goals } from "../../components/Goals";
 import { InfosTeam } from "../../components/InfoTeam";
+import { Package } from "../../components/Package";
 import { Header } from "../../components/header";
 import { Main, SectionCarrousel } from "./style";
 
@@ -31,6 +31,7 @@ const Home = () => {
 
         <SectionCarrousel>
           <Goals />
+          <Package />
         </SectionCarrousel>
       </Main>
     </>
