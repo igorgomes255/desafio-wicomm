@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const SectionContainer = styled.section`
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+`;
+
 export const Container = styled.header`
   background-color: var(--black1);
   height: 72px;
