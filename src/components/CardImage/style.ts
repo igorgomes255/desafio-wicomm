@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
+  margin-top: 80px;
 
   img {
     object-fit: cover;
