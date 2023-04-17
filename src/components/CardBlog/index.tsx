@@ -1,6 +1,6 @@
 import { Button, Card, CardImg } from "react-bootstrap";
 import { Container } from "./style";
-import image5 from "../../assets/image5.png";
+import { GrShare } from "react-icons/gr";
 
 interface ICardBlog {
   image: string;

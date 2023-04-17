@@ -30,7 +30,7 @@ const InfosTeam = () => {
                   >
                     {cardTeam.map((team, index) => (
                       <section className="cardsTeam" key={index}>
-                        <CardTeam image={team.image} />
+                        <CardTeam image={team.image} name={team.name} />
                       </section>
                     ))}
                   </Stack>

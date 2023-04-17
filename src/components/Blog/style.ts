@@ -29,7 +29,7 @@ export const InfosBlog = styled.section`
 
       text-transform: uppercase;
 
-      background: -webkit-linear-gradient(left, white 20%, #ff9601 0%);
+      background: -webkit-linear-gradient(left, white 45%, #ff9601 0%);
 
       background-clip: border-box;
 

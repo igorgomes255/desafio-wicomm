@@ -40,7 +40,7 @@ export const InfoTeam = styled.section`
 
     margin-top: 10px;
 
-    background: -webkit-linear-gradient(left, white 35%, #ff9601 0%);
+    background: -webkit-linear-gradient(left, white 40%, #ff9601 0%);
 
     background-clip: border-box;
 
