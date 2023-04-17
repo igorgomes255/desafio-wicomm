@@ -11,6 +11,8 @@ import image8 from "../assets/image8.png";
 import image9 from "../assets/image9.png";
 import image10 from "../assets/image10.png";
 import image11 from "../assets/image11.png";
+import Package from "../assets/Package.png";
+import dollar from "../assets/dollar.png";
 
 const cardImageData = [
   {
@@ -181,6 +183,21 @@ const cardGoals = [
   },
 ];
 
+const packageCards = [
+  {
+    name: "Garanta o",
+    subname: "Frete grátis",
+    button: "Consulte",
+    image: Package,
+  },
+  {
+    name: "Seu dinheiro",
+    subname: "de volta",
+    button: "Entenda",
+    image: dollar,
+  },
+];
+
 export {
   cardImageData,
   cardTypeData,
@@ -188,4 +205,5 @@ export {
   cardTeam,
   cardBlog,
   cardGoals,
+  packageCards,
 };
