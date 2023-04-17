@@ -7,6 +7,10 @@ import team3 from "../assets/team3.png";
 import image5 from "../assets/image5.png";
 import image6 from "../assets/image6.png";
 import image7 from "../assets/image7.png";
+import image8 from "../assets/image8.png";
+import image9 from "../assets/image9.png";
+import image10 from "../assets/image10.png";
+import image11 from "../assets/image11.png";
 
 const cardImageData = [
   {
@@ -158,4 +162,30 @@ const cardBlog = [
   },
 ];
 
-export { cardImageData, cardTypeData, cardProduct, cardTeam, cardBlog };
+const cardGoals = [
+  {
+    image: image8,
+    title: "Ganho de massa",
+  },
+  {
+    image: image9,
+    title: "Energia",
+  },
+  {
+    image: image10,
+    title: "Recuperação muscular",
+  },
+  {
+    image: image11,
+    title: "Emagrecimento",
+  },
+];
+
+export {
+  cardImageData,
+  cardTypeData,
+  cardProduct,
+  cardTeam,
+  cardBlog,
+  cardGoals,
+};
