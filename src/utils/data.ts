@@ -4,6 +4,9 @@ import image3 from "../assets/image3.png";
 import team1 from "../assets/team1.png";
 import team2 from "../assets/team2.png";
 import team3 from "../assets/team3.png";
+import image5 from "../assets/image5.png";
+import image6 from "../assets/image6.png";
+import image7 from "../assets/image7.png";
 
 const cardImageData = [
   {
@@ -137,4 +140,22 @@ const cardTeam = [
   },
 ];
 
-export { cardImageData, cardTypeData, cardProduct, cardTeam };
+const cardBlog = [
+  {
+    image: image5,
+    date: "03.05.21",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    image: image6,
+    date: "03.05.21",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    image: image7,
+    date: "03.05.21",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+];
+
+export { cardImageData, cardTypeData, cardProduct, cardTeam, cardBlog };
