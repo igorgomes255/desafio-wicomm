@@ -1,6 +1,9 @@
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
 import image3 from "../assets/image3.png";
+import team1 from "../assets/team1.png";
+import team2 from "../assets/team2.png";
+import team3 from "../assets/team3.png";
 
 const cardImageData = [
   {
@@ -105,7 +108,7 @@ const cardProduct = [
     price: "R$ 349,90",
     quotaPrice: "ou 12x de R$ 29,16",
   },
-  /* {
+  {
     image: image3,
     title: "Whey Zero (Com Lactase) Black Skull - 900G",
     price: "R$ 349,90",
@@ -116,7 +119,22 @@ const cardProduct = [
     title: "Whey Zero (Com Lactase) Black Skull - 900G",
     price: "R$ 349,90",
     quotaPrice: "ou 12x de R$ 29,16",
-  }, */
+  },
 ];
 
-export { cardImageData, cardTypeData, cardProduct };
+const cardTeam = [
+  {
+    image: team1,
+    name: "Cedric McMillan",
+  },
+  {
+    image: team2,
+    name: "Cedric McMillan",
+  },
+  {
+    image: team3,
+    name: "Cedric McMillan",
+  },
+];
+
+export { cardImageData, cardTypeData, cardProduct, cardTeam };

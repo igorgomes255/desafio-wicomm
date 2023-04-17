@@ -3,10 +3,10 @@ import { cardProduct } from "../../utils/data";
 import { CardProduct } from "../CardProduct";
 import { Carrousel } from "../Carrousel";
 
-const CarrouselProduct = () => {
+const CarrouselPromo = () => {
   return (
     <Carrousel
-      title="Lançamentos"
+      title="Promoções"
       carrouselItem={cardProduct.map((review, index) => (
         <CarouselItem interval={10000}>
           <Stack
@@ -36,4 +36,4 @@ const CarrouselProduct = () => {
   );
 };
 
-export { CarrouselProduct };
+export { CarrouselPromo };
