@@ -40,7 +40,6 @@ const Home = () => {
         <About />
       </Main>
 
-      <SubFooter />
       <Footer />
     </>
   );
