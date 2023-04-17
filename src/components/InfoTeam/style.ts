@@ -1,14 +1,31 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-bottom: 80px;
+  .buttonSeeAll {
+    width: 140px;
+    height: 48px;
+    margin-top: 15px;
+
+    background-color: #ff9601;
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #0b0b0b;
+  }
 `;
 
 export const InfoTeam = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
 
   flex-direction: column;
 
@@ -21,7 +38,7 @@ export const InfoTeam = styled.section`
 
     text-transform: uppercase;
 
-    margin-top: 40px;
+    margin-top: 10px;
 
     background: -webkit-linear-gradient(left, white 35%, #ff9601 0%);
 
@@ -36,8 +53,6 @@ export const InfoTeam = styled.section`
   .cardsTeam {
     display: flex;
     gap: 20px;
-    margin-top: 30px;
-
     width: 60%;
   }
 `;
