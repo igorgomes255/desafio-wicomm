@@ -1,3 +1,4 @@
+import { About } from "../../components/About";
 import { Blog } from "../../components/Blog";
 import { CarrouselCard } from "../../components/CarrouselCard";
 import { CarrouselCardImage } from "../../components/CarrouselCardImage";
@@ -33,6 +34,8 @@ const Home = () => {
           <Goals />
           <Package />
         </SectionCarrousel>
+
+        <About />
       </Main>
     </>
   );
